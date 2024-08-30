@@ -1,9 +1,13 @@
-<script setup>
+<script setup lang="ts">
+
 </script>
 
 <template lang="pug">
-p Hello
+nav
+  ul
+    li
 </template>
 
 <style scoped lang="sass">
+
 </style>
