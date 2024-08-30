@@ -1,12 +1,23 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 
 </script>
 
 <template lang="pug">
-h1 ĀKKAM
+#header
+    h1 ĀKKAM
+    p Eternal Seeker
 </template>
 
-<style scoped lang="sass">
-h1
-  font-family: 'Merienda', Georgia, 'Times New Roman', serif
+<style lang="sass" scoped>
+#header
+    margin: 1rem
+    display: flex
+    flex-direction: column
+    place-items: center
+    h1
+        font-family: 'Merienda', Georgia, 'Times New Roman', serif
+        font-size: 3.5rem
+    p
+        font-family: 'Alegreya SC', Georgia, 'Times New Roman', Times, serif
+        font-size: 1.75rem
 </style>
